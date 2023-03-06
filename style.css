@@ -4,6 +4,9 @@ body{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows:20% 20% 20% 20% 20% ;
+    background-image: url(images.jpeg);
+   
+   
 }
 #div_globale{
   grid-column: 1 /span 5;
