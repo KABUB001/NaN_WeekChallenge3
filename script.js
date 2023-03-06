@@ -44,18 +44,18 @@ let numbers = [1,2,3,4,5,6];
                 
                 if(para4==0){
                     t4 = 0;
-                }else para4.src = "Dice/Side_"+t3+"_Pips.png";
+                }else para4.src = "Dice/Side_"+t4+"_Pips.png";
                 
                 if(para5==0){
                     t5 = 0;
-                }else para5.src = "Dice/Side_"+t3+"_Pips.png";
+                }else para5.src = "Dice/Side_"+t5+"_Pips.png";
                 
                 
                
                 
                 
                 
-                totale = t1 + t2 +t3 +t4+t5;
+                totale = t1 + t2 +t3 +t4 +t5;
                 
             },time) 
     }
