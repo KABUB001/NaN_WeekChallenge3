@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    width: auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows:20% 20% 20% 20% 20% ;
+}
+.div_globale{
+  grid-column: 1 /span 5;
+  grid-row: 2/5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+div div{
+    background-color: black;
+    width: 15%;
+    height: 50%;
+    /* grid-column:2/ span 5 ;
+    grid-row: 2/5;
+    margin-left: 10px; */
+}
+button{
+
+}
