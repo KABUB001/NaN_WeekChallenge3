@@ -13,6 +13,9 @@ body{
   align-items: center;
 
 }
+input,button{
+    font-size: 100%;
+}
 
 div div{
    
