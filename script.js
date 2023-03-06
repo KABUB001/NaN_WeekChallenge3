@@ -61,7 +61,7 @@ let numbers = [1,2,3,4,5,6];
     }
     function timeOut() {
         setTimeout(()=>{
-            timeCompte += 140;
+            timeCompte += 200;
             if (timeCompte >= 1100) {
                 clearInterval(inter)
                 alert(totale)
