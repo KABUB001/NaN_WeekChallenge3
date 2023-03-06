@@ -14,6 +14,9 @@ let count = 0;
 
 input?.addEventListener('click',()=>{
     let para1 = document.getElementById('img_1')?document.getElementById('img_1'):0;
+    if(para1 == 0){
+        alert("Veuillez ajouter un dé s'il vous plait!")
+    }else{
 let para2 = document.getElementById('img_2')?document.getElementById('img_2'):0;
 let para3 = document.getElementById('img_3')?document.getElementById('img_3'):0;
 let para4 = document.getElementById('img_4')?document.getElementById('img_4'):0;
@@ -75,7 +78,7 @@ let numbers = [1,2,3,4,5,6];
     
     interval(timeCompte);
     timeOut()
-})
+}})
 
 
 /*Fonction pour créer un élément pour représenter un dé*/
@@ -103,6 +106,8 @@ button.addEventListener("click", ()=>{
         createDice(count)
     }
 })
+
+/*Fonction retrait de dé*/ 
 
 // input.addEventListener("click", eee)
 
